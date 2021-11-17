@@ -6,11 +6,9 @@ With pyats_parser you just have to fill the cli return collected by NSO live sta
 # Installation
 
 ```
-pip install pyats_parser
+pip install pyats-parser
 ```
-
 # Usage
-
 ```python
 from pyats_parser import parser
 
