@@ -1,5 +1,5 @@
 # pyats_parser
-This library is a workaround to use PyATS parser libraries outside PyATS workflow which consist of declaring devices in a testbed and connect to device with pyATS, execute command with pyATS and parse output.
+This library is a workaround to use PyATS parser libraries outside PyATS workflow which consist of declaring devices in a testbed and connect to device with pyATS, execute command with pyATS and finally parse output.
 
 With pyats_parser you just have to fill the cli return collected by NSO live status, netmiko , etc... 
 
