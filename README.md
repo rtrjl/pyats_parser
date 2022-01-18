@@ -51,4 +51,4 @@ This library is inspired from : https://github.com/CiscoDevNet/ansible-pyats/blo
 
 ## License
 
-This project is licensed to you under the terms of the [Cisco SampleCode License](./LICENSE).
+This project is licensed to you under the terms of the [Cisco Sample Code License](./LICENSE).
