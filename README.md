@@ -48,3 +48,7 @@ And you will get the structured output as a dictionary :
 - OS platform and model supported : https://pubhub.devnetcloud.com/media/unicon/docs/user_guide/supported_platforms.html#/
     
 This library is inspired from : https://github.com/CiscoDevNet/ansible-pyats/blob/master/library/pyats_parse_command.py
+
+## License
+
+This project is licensed to you under the terms of the [Cisco SampleCode License](./LICENSE).

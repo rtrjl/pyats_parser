@@ -10,20 +10,20 @@ README = (HERE / "README.md").read_text()
 # This call to setup() does all the work
 setup(
     name="pyats_parser",
-    version="1.0.1",
+    version="1.0.3",
     description="Parse CLI output with pyATS/Genie Librairies",
     long_description=README,
     long_description_content_type="text/markdown",
     url="https://github.com/rtrjl/pyats_parser",
     author="Rodolphe Trujillo",
     author_email="rodtruji@cisco.com",
-    license="WTFPL",
+    license="Cisco Sample Code License, Version 1.1",
     classifiers=[
-        "Programming Language :: Python :: 3",
-        "Programming Language :: Python :: 3.7",
+        "Topic :: System :: Networking",
     ],
     packages=["pyats_parser"],
     include_package_data=True,
     install_requires=["pyats", "genie"],
+    requires_python='>=3.6.0'
 
 )
