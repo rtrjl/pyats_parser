@@ -10,7 +10,7 @@ README = (HERE / "README.md").read_text()
 # This call to setup() does all the work
 setup(
     name="pyats_parser",
-    version="1.0.5",
+    version="1.0.6",
     description="Parse CLI output with pyATS/Genie Librairies",
     long_description=README,
     long_description_content_type="text/markdown",
@@ -23,7 +23,7 @@ setup(
     ],
     packages=["pyats_parser"],
     include_package_data=True,
-    install_requires=["pyats", "genie"],
+    install_requires=["pyats==*", "genie==*"],
     requires_python='>=3.6.0'
 
 )
